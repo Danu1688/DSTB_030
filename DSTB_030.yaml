@@ -1,0 +1,40 @@
+proxies:
+- name: danu29_LiveCtn30a
+  type: trojan
+  server: 104.21.8.121
+  port: 443
+  password: dc855ce2-14d1-4ab2-9452-c29b64fdfc14
+  udp: true
+  sni: ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: ctn.sshpremium.my.id
+- name: danu29_LiveCtn30b
+  type: trojan
+  server: 172.67.139.111
+  port: 443
+  password: dc855ce2-14d1-4ab2-9452-c29b64fdfc14
+  udp: true
+  sni: ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: ctn.sshpremium.my.id
+- name: danu29_LiveCtn30c
+  type: trojan
+  server: beacon.liveon.id
+  port: 443
+  password: dc855ce2-14d1-4ab2-9452-c29b64fdfc14
+  udp: true
+  sni: ctn.sshpremium.my.id
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: "/trojanws"
+    headers:
+      Host: ctn.sshpremium.my.id
