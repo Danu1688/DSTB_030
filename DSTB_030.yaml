@@ -1,5 +1,5 @@
 proxies:
-- name: Danu29_LiveNata29a
+- name: Danu29_LiveNata30a
   type: trojan
   server: 104.21.8.121
   port: 443
@@ -12,7 +12,7 @@ proxies:
     path: /trojan
     headers:
       Host: nata1.myserver-prem.cloud
-- name: Danu29_LiveNata29b
+- name: Danu29_LiveNata30b
   type: trojan
   server: 172.67.139.111
   port: 443
@@ -25,7 +25,7 @@ proxies:
     path: /trojan
     headers:
       Host: nata1.myserver-prem.cloud
-- name: Danu29_LiveNata29c
+- name: Danu29_LiveNata30c
   type: trojan
   server: beacon.liveon.id
   port: 443
