@@ -25,7 +25,7 @@ proxies:
     path: /trojan
     headers:
       Host: biznet2.myserver-prem.cloud
-- name: Danu29_LiveBiznet30b
+- name: Danu29_LiveBiznet30c
   type: trojan
   server: beacon.liveon.id
   port: 443
