@@ -1,4 +1,17 @@
 proxies:
+- name: Ipung2Tofan_LiveDO_1
+  type: trojan
+  server: circles.asia
+  port: 443
+  password: c00d7eb9-12f6-4c56-a356-bf78bc41208f
+  udp: true
+  sni: sgdo2.myserver-prem.xyz
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /xraytrojanws
+    headers:
+      Host: sgdo2.myserver-prem.xyz
 - name: TofanTanrai1_LiveDO_1
   type: trojan
   server: circles.asia
