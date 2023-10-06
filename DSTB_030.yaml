@@ -1,17 +1,69 @@
 proxies:
-- name: TofanSvrNusa_LiveNusa_1
+- name: TofanNusa_Live_IP1
   type: trojan
-  server: beacon.liveon.id
+  server: 104.17.224.203
   port: 443
-  password: cd93ab68-0362-4a3b-8e23-12d352c26238
+  password: 80ae64cb-f16d-4b8f-8d97-aff366aa6834
   udp: true
-  sni: vpna4mvbhv.scpotato.me
+  sni: nusa.dstb.cloud
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /trojan
+    path: /trojan-ws
     headers:
-      Host: vpna4mvbhv.scpotato.me
+      Host: nusa.dstb.cloud
+- name: TofanNusa_Live_IP2
+  type: trojan
+  server: 104.16.143.190
+  port: 443
+  password: 80ae64cb-f16d-4b8f-8d97-aff366aa6834
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: TofanNusa_Live_IP3
+  type: trojan
+  server: 172.67.75.37
+  port: 443
+  password: 80ae64cb-f16d-4b8f-8d97-aff366aa6834
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: TofanNusa_Live_IP4
+  type: trojan
+  server: 104.26.15.208
+  port: 443
+  password: 80ae64cb-f16d-4b8f-8d97-aff366aa6834
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
+- name: TofanNusa_Live_IP5
+  type: trojan
+  server: 104.26.14.208
+  port: 443
+  password: 80ae64cb-f16d-4b8f-8d97-aff366aa6834
+  udp: true
+  sni: nusa.dstb.cloud
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /trojan-ws
+    headers:
+      Host: nusa.dstb.cloud
 - name: Ipung2Tofan_LiveDO_1
   type: trojan
   server: circles.asia
