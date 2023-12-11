@@ -1,9 +1,9 @@
 proxies:
-- name: Dstb30Linode_Live_IP1
+- name: ServerAkamai_Live_IP1
   type: trojan
   server: 104.17.224.203
   port: 443
-  password: 19e917e2-7c4e-4a7d-adeb-60647da84157
+  password: 557f9453-ce14-4568-9215-b3a20dbb1d92
   udp: true
   sni: id.dstb.cloud
   skip-cert-verify: true
@@ -12,11 +12,11 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-- name: Dstb30Linode_Live_IP2
+- name: ServerAkamai_Live_IP2
   type: trojan
   server: 104.16.143.190
   port: 443
-  password: 19e917e2-7c4e-4a7d-adeb-60647da84157
+  password: 557f9453-ce14-4568-9215-b3a20dbb1d92
   udp: true
   sni: id.dstb.cloud
   skip-cert-verify: true
@@ -25,11 +25,11 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-- name: Dstb30Linode_Live_IP3
+- name: ServerAkamai_Live_IP3
   type: trojan
   server: 172.67.75.37
   port: 443
-  password: 19e917e2-7c4e-4a7d-adeb-60647da84157
+  password: 557f9453-ce14-4568-9215-b3a20dbb1d92
   udp: true
   sni: id.dstb.cloud
   skip-cert-verify: true
@@ -38,11 +38,11 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-- name: Dstb30Linode_Live_IP4
+- name: ServerAkamai_Live_IP4
   type: trojan
   server: 104.26.15.208
   port: 443
-  password: 19e917e2-7c4e-4a7d-adeb-60647da84157
+  password: 557f9453-ce14-4568-9215-b3a20dbb1d92
   udp: true
   sni: id.dstb.cloud
   skip-cert-verify: true
@@ -51,11 +51,11 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-- name: Dstb30Linode_Live_IP5
+- name: ServerAkamai_Live_IP5
   type: trojan
   server: 104.26.14.208
   port: 443
-  password: 19e917e2-7c4e-4a7d-adeb-60647da84157
+  password: 557f9453-ce14-4568-9215-b3a20dbb1d92
   udp: true
   sni: id.dstb.cloud
   skip-cert-verify: true
@@ -64,11 +64,11 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-- name: Dstb30Linode_Live_H1
+- name: ServerAkamai_Live_H1
   type: trojan
   server: circles.asia
   port: 443
-  password: 19e917e2-7c4e-4a7d-adeb-60647da84157
+  password: 557f9453-ce14-4568-9215-b3a20dbb1d92
   udp: true
   sni: id.dstb.cloud
   skip-cert-verify: true
@@ -77,11 +77,11 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-- name: Dstb30Linode_Live_H2
+- name: ServerAkamai_Live_H2
   type: trojan
   server: beacon.liveon.id
   port: 443
-  password: 19e917e2-7c4e-4a7d-adeb-60647da84157
+  password: 557f9453-ce14-4568-9215-b3a20dbb1d92
   udp: true
   sni: id.dstb.cloud
   skip-cert-verify: true
@@ -90,71 +90,6 @@ proxies:
     path: /trojan-ws
     headers:
       Host: id.dstb.cloud
-- name: TofanNusa_Live_IP1
-  type: trojan
-  server: 104.17.224.203
-  port: 443
-  password: 80ae64cb-f16d-4b8f-8d97-aff366aa6834
-  udp: true
-  sni: nusa.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: nusa.dstb.cloud
-- name: TofanNusa_Live_IP2
-  type: trojan
-  server: 104.16.143.190
-  port: 443
-  password: 80ae64cb-f16d-4b8f-8d97-aff366aa6834
-  udp: true
-  sni: nusa.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: nusa.dstb.cloud
-- name: TofanNusa_Live_IP3
-  type: trojan
-  server: 172.67.75.37
-  port: 443
-  password: 80ae64cb-f16d-4b8f-8d97-aff366aa6834
-  udp: true
-  sni: nusa.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: nusa.dstb.cloud
-- name: TofanNusa_Live_IP4
-  type: trojan
-  server: 104.26.15.208
-  port: 443
-  password: 80ae64cb-f16d-4b8f-8d97-aff366aa6834
-  udp: true
-  sni: nusa.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: nusa.dstb.cloud
-- name: TofanNusa_Live_IP5
-  type: trojan
-  server: 104.26.14.208
-  port: 443
-  password: 80ae64cb-f16d-4b8f-8d97-aff366aa6834
-  udp: true
-  sni: nusa.dstb.cloud
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /trojan-ws
-    headers:
-      Host: nusa.dstb.cloud
 - name: SeverDo2_Live_IP1
   type: trojan
   server: 104.17.224.203
